@@ -34,13 +34,15 @@ dependencies:
     
   camera: ^0.9.4+5
   
-  arcore_flutter_plugin: ^0.0.10
+  arcore_flutter_plugin: 
   
-  arkit_plugin: ^0.6.0
+  arkit_plugin: 
   
-  permission_handler: ^10.0.0
+  permission_handler: 
   
-  provider: ^6.0.3
+  provider: 
+
+  google_ml_kit: 
   
 # Project Structure
 - **main.dart:** Entry point of the application.
