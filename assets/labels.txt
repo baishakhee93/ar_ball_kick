@@ -1,0 +1,4 @@
+standing
+walking
+running
+kicking
