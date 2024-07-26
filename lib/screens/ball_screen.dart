@@ -59,7 +59,9 @@ class _BallScreenState extends State<BallScreen> with SingleTickerProviderStateM
         children: [
           Consumer<LegDetector>(
             builder: (context, legDetector, child) {
-              if (legDetector.isLegDetected) {
+            bool isLegDetected=true;
+              if (isLegDetected) {
+              //if (legDetector.isLegDetected) {
                 return Positioned(
                   top: _animation.value.dy,
                   left: _animation.value.dx,

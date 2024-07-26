@@ -16,7 +16,7 @@ class LegDetector with ChangeNotifier {
       print("No poses detected.");
     }
 
-    bool legDetected = false;
+    bool legDetected = false;// dummay
     for (Pose pose in poses) {
       print("Detected ${poses.length} poses");
 
@@ -26,10 +26,13 @@ class LegDetector with ChangeNotifier {
         if (landmark.type == PoseLandmarkType.leftKnee || landmark.type == PoseLandmarkType.rightKnee) {
           legDetected = true;
           print("landmark ${legDetected} ");
-
+          detectLeg();
           break;
         }
+
       }
+      legDetected = true;
+
       if (legDetected) break;
     }
 
