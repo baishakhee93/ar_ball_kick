@@ -25,7 +25,7 @@ This Flutter application demonstrates an augmented reality (AR) interaction wher
 
 Add the following dependencies to your `pubspec.yaml` file:
 
-```yaml
+``yaml
 dependencies:
   flutter:
     sdk: flutter
@@ -34,9 +34,7 @@ dependencies:
   arkit_plugin: ^0.6.0
   permission_handler: ^10.0.0
   provider: ^6.0.3
-
-
-
+  
 # Project Structure
 main.dart: Entry point of the application.
 home_screen.dart: Home screen with a button to start the AR experience.
@@ -51,3 +49,9 @@ Home Screen: Click the "Start" button to navigate to the camera screen.
 Camera Screen: The app will request camera permissions. Allow the permission to see the live camera feed. Click the forward arrow button to move to the AR screen.
 AR Screen: Depending on the platform (Android or iOS), the respective AR view will be displayed. Interact with the AR content by tapping on the screen to add the ball.
 Ball Interaction: The ball will move towards your leg, and leg movement detection will take place. Reset detection using the provided button if needed.
+
+
+
+
+
+
