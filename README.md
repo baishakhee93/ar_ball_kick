@@ -26,13 +26,21 @@ This Flutter application demonstrates an augmented reality (AR) interaction wher
 Add the following dependencies to your `pubspec.yaml` file:
 
 ``yaml
+
 dependencies:
+
   flutter:
+  
     sdk: flutter
+    
   camera: ^0.9.4+5
+  
   arcore_flutter_plugin: ^0.0.10
+  
   arkit_plugin: ^0.6.0
+  
   permission_handler: ^10.0.0
+  
   provider: ^6.0.3
   
 # Project Structure
